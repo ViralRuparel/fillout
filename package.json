@@ -1,0 +1,17 @@
+{
+  "name": "fillout",
+  "version": "1.0.0",
+  "description": "A take home assignment from fillout",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3"
+  },
+  "author": "",
+  "license": "ISC"
+}
