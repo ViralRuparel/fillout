@@ -21,7 +21,7 @@ router.route("/:formId/filteredResponses").get(async (req, res) => {
         pageSize: pageSize || 10,
       },
     };
-
+    console.log("options: ", options);
     const response = await request(options);
 
     const responseData = response?.data;
